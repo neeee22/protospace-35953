@@ -181,6 +181,9 @@ a {
   width: 40%;
   margin: 0 auto;
   padding: 16px 0;
+ 
+  display: flex;
+  justify-content: center;
 }
 .prototype__detail{
   display: flex;
