@@ -11,6 +11,7 @@
 | occupation | text   |             |
 | position   | text   |             |
 
+
 ### Association
 
 - has_many :prototypes
