@@ -7,9 +7,9 @@
 | email      | string | null: false |
 | password   | string | null: false |
 | name       | string | null: false |
-| profile    | text   | null: false |
-| occupation | text   | null: false |
-| position   | test   | null: false |
+| profile    | text   |             |
+| occupation | text   |             |
+| position   | text   |             |
 
 ### Association
 
@@ -21,8 +21,8 @@
 | Column     | Type          | Options                        |
 |-------------------------------------------------------------|
 | title      | string        | null: false                    |
-| catch_copy | text          | null: false                    |
-| concept    | text          | null: false                    |
+| catch_copy | text          |                                |
+| concept    | text          |                                |
 | image      | ActiveStorage |                                |
 | user       | references    | null: false, foreign_key: true |
 
@@ -35,7 +35,7 @@
 
 | Column    | Type       | Options                        |
 |---------------------------------------------------------|
-| text      | text       | null: false                    |
+| text      | text       |                                |
 | user      | references | null: false, foreign_key: true |
 | prototype | references | null: false, foreign_key: true |
 
