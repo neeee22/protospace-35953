@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :prototypes do
     resources :comments, only: :create
   end
+  get "/prototypes/:id/comments", to: "prototypes#show"
   devise_scope :user do
     get "users", to: "devise/registrations#new"
   end
